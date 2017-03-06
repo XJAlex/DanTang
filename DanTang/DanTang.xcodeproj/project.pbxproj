@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C455AB49BDE0B13CED5BF85 /* Pods_DanTang.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 215D80F30AC634470B6256EC /* Pods_DanTang.framework */; };
+		D69951D41E6D501D003A1928 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69951D31E6D501D003A1928 /* AppDelegate.swift */; };
+		D69951D61E6D501D003A1928 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69951D51E6D501D003A1928 /* ViewController.swift */; };
+		D69951D91E6D501D003A1928 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D69951D71E6D501D003A1928 /* Main.storyboard */; };
+		D69951DB1E6D501D003A1928 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D69951DA1E6D501D003A1928 /* Assets.xcassets */; };
+		D69951DE1E6D501D003A1928 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D69951DC1E6D501D003A1928 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		215D80F30AC634470B6256EC /* Pods_DanTang.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DanTang.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C694654BC6CBE86F3E143538 /* Pods-DanTang.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DanTang.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DanTang/Pods-DanTang.debug.xcconfig"; sourceTree = "<group>"; };
+		D69951D01E6D501D003A1928 /* DanTang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DanTang.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D69951D31E6D501D003A1928 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D69951D51E6D501D003A1928 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D69951D81E6D501D003A1928 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D69951DA1E6D501D003A1928 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D69951DD1E6D501D003A1928 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D69951DF1E6D501D003A1928 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6C9390A9C1B4399CFE5E0F9 /* Pods-DanTang.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DanTang.release.xcconfig"; path = "Pods/Target Support Files/Pods-DanTang/Pods-DanTang.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D69951CD1E6D501D003A1928 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C455AB49BDE0B13CED5BF85 /* Pods_DanTang.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A181B8F8FA60BD7F2EE559B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				215D80F30AC634470B6256EC /* Pods_DanTang.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B92BD3AAECC6D70BAF745B17 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C694654BC6CBE86F3E143538 /* Pods-DanTang.debug.xcconfig */,
+				F6C9390A9C1B4399CFE5E0F9 /* Pods-DanTang.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D69951C71E6D501D003A1928 = {
+			isa = PBXGroup;
+			children = (
+				D69951D21E6D501D003A1928 /* DanTang */,
+				D69951D11E6D501D003A1928 /* Products */,
+				B92BD3AAECC6D70BAF745B17 /* Pods */,
+				4A181B8F8FA60BD7F2EE559B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D69951D11E6D501D003A1928 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D69951D01E6D501D003A1928 /* DanTang.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D69951D21E6D501D003A1928 /* DanTang */ = {
+			isa = PBXGroup;
+			children = (
+				D69951D31E6D501D003A1928 /* AppDelegate.swift */,
+				D69951D51E6D501D003A1928 /* ViewController.swift */,
+				D69951D71E6D501D003A1928 /* Main.storyboard */,
+				D69951DA1E6D501D003A1928 /* Assets.xcassets */,
+				D69951DC1E6D501D003A1928 /* LaunchScreen.storyboard */,
+				D69951DF1E6D501D003A1928 /* Info.plist */,
+			);
+			path = DanTang;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D69951CF1E6D501D003A1928 /* DanTang */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D69951E21E6D501D003A1928 /* Build configuration list for PBXNativeTarget "DanTang" */;
+			buildPhases = (
+				2C437DFDE9F8B6D854D16CD3 /* [CP] Check Pods Manifest.lock */,
+				D69951CC1E6D501D003A1928 /* Sources */,
+				D69951CD1E6D501D003A1928 /* Frameworks */,
+				D69951CE1E6D501D003A1928 /* Resources */,
+				42580A3181717F2041103A70 /* [CP] Embed Pods Frameworks */,
+				07485F472C095268FD667A0D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DanTang;
+			productName = DanTang;
+			productReference = D69951D01E6D501D003A1928 /* DanTang.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D69951C81E6D501D003A1928 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = QinXJ;
+				TargetAttributes = {
+					D69951CF1E6D501D003A1928 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D69951CB1E6D501D003A1928 /* Build configuration list for PBXProject "DanTang" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D69951C71E6D501D003A1928;
+			productRefGroup = D69951D11E6D501D003A1928 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D69951CF1E6D501D003A1928 /* DanTang */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D69951CE1E6D501D003A1928 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D69951DE1E6D501D003A1928 /* LaunchScreen.storyboard in Resources */,
+				D69951DB1E6D501D003A1928 /* Assets.xcassets in Resources */,
+				D69951D91E6D501D003A1928 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07485F472C095268FD667A0D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DanTang/Pods-DanTang-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C437DFDE9F8B6D854D16CD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		42580A3181717F2041103A70 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DanTang/Pods-DanTang-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D69951CC1E6D501D003A1928 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D69951D61E6D501D003A1928 /* ViewController.swift in Sources */,
+				D69951D41E6D501D003A1928 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D69951D71E6D501D003A1928 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D69951D81E6D501D003A1928 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D69951DC1E6D501D003A1928 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D69951DD1E6D501D003A1928 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D69951E01E6D501D003A1928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D69951E11E6D501D003A1928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D69951E31E6D501D003A1928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C694654BC6CBE86F3E143538 /* Pods-DanTang.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DanTang/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QinXJ.DanTang;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D69951E41E6D501D003A1928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6C9390A9C1B4399CFE5E0F9 /* Pods-DanTang.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DanTang/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QinXJ.DanTang;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D69951CB1E6D501D003A1928 /* Build configuration list for PBXProject "DanTang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D69951E01E6D501D003A1928 /* Debug */,
+				D69951E11E6D501D003A1928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D69951E21E6D501D003A1928 /* Build configuration list for PBXNativeTarget "DanTang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D69951E31E6D501D003A1928 /* Debug */,
+				D69951E41E6D501D003A1928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D69951C81E6D501D003A1928 /* Project object */;
+}

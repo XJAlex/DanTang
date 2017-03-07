@@ -8,23 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		6C455AB49BDE0B13CED5BF85 /* Pods_DanTang.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 215D80F30AC634470B6256EC /* Pods_DanTang.framework */; };
-		D69951D41E6D501D003A1928 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69951D31E6D501D003A1928 /* AppDelegate.swift */; };
-		D69951D61E6D501D003A1928 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69951D51E6D501D003A1928 /* ViewController.swift */; };
-		D69951D91E6D501D003A1928 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D69951D71E6D501D003A1928 /* Main.storyboard */; };
 		D69951DB1E6D501D003A1928 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D69951DA1E6D501D003A1928 /* Assets.xcassets */; };
-		D69951DE1E6D501D003A1928 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D69951DC1E6D501D003A1928 /* LaunchScreen.storyboard */; };
+		D69951E91E6D55C5003A1928 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69951E61E6D55C5003A1928 /* AppDelegate.swift */; };
+		D69952091E6D5A79003A1928 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D69952081E6D5A79003A1928 /* Info.plist */; };
+		D699521A1E6E6575003A1928 /* XJNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69952171E6E6575003A1928 /* XJNavigationController.swift */; };
+		D699521B1E6E6575003A1928 /* XJTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69952181E6E6575003A1928 /* XJTabBarController.swift */; };
+		D69952201E6E6648003A1928 /* XJConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = D699521F1E6E6648003A1928 /* XJConst.swift */; };
+		D69952221E6E6BDE003A1928 /* XJBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69952211E6E6BDE003A1928 /* XJBaseViewController.swift */; };
+		D69952241E6E6C20003A1928 /* XJDanTangViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69952231E6E6C20003A1928 /* XJDanTangViewController.swift */; };
+		D69952261E6E8B43003A1928 /* XJProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69952251E6E8B43003A1928 /* XJProductViewController.swift */; };
+		D69952281E6E8B7C003A1928 /* XJCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69952271E6E8B7C003A1928 /* XJCategoryViewController.swift */; };
+		D699522A1E6E8B96003A1928 /* XJMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69952291E6E8B96003A1928 /* XJMeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		215D80F30AC634470B6256EC /* Pods_DanTang.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DanTang.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C694654BC6CBE86F3E143538 /* Pods-DanTang.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DanTang.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DanTang/Pods-DanTang.debug.xcconfig"; sourceTree = "<group>"; };
 		D69951D01E6D501D003A1928 /* DanTang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DanTang.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D69951D31E6D501D003A1928 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D69951D51E6D501D003A1928 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D69951D81E6D501D003A1928 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D69951DA1E6D501D003A1928 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D69951DD1E6D501D003A1928 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D69951DF1E6D501D003A1928 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D69951E61E6D55C5003A1928 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
+		D69952081E6D5A79003A1928 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D69952171E6E6575003A1928 /* XJNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XJNavigationController.swift; sourceTree = "<group>"; };
+		D69952181E6E6575003A1928 /* XJTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XJTabBarController.swift; sourceTree = "<group>"; };
+		D699521F1E6E6648003A1928 /* XJConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XJConst.swift; sourceTree = "<group>"; };
+		D69952211E6E6BDE003A1928 /* XJBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XJBaseViewController.swift; sourceTree = "<group>"; };
+		D69952231E6E6C20003A1928 /* XJDanTangViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XJDanTangViewController.swift; sourceTree = "<group>"; };
+		D69952251E6E8B43003A1928 /* XJProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XJProductViewController.swift; sourceTree = "<group>"; };
+		D69952271E6E8B7C003A1928 /* XJCategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XJCategoryViewController.swift; sourceTree = "<group>"; };
+		D69952291E6E8B96003A1928 /* XJMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XJMeViewController.swift; sourceTree = "<group>"; };
 		F6C9390A9C1B4399CFE5E0F9 /* Pods-DanTang.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DanTang.release.xcconfig"; path = "Pods/Target Support Files/Pods-DanTang/Pods-DanTang.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,14 +89,227 @@
 		D69951D21E6D501D003A1928 /* DanTang */ = {
 			isa = PBXGroup;
 			children = (
-				D69951D31E6D501D003A1928 /* AppDelegate.swift */,
-				D69951D51E6D501D003A1928 /* ViewController.swift */,
-				D69951D71E6D501D003A1928 /* Main.storyboard */,
+				D69951E51E6D55C5003A1928 /* Classes */,
 				D69951DA1E6D501D003A1928 /* Assets.xcassets */,
-				D69951DC1E6D501D003A1928 /* LaunchScreen.storyboard */,
-				D69951DF1E6D501D003A1928 /* Info.plist */,
+				D69952081E6D5A79003A1928 /* Info.plist */,
 			);
 			path = DanTang;
+			sourceTree = "<group>";
+		};
+		D69951E51E6D55C5003A1928 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D69951FA1E6D5716003A1928 /* Login&Register */,
+				D69951F61E6D5716003A1928 /* DanTang */,
+				D69952021E6D5716003A1928 /* Product */,
+				D69951F21E6D5716003A1928 /* Classify */,
+				D69951FE1E6D5716003A1928 /* Me */,
+				D69951F11E6D5716003A1928 /* Base */,
+				D69952061E6D588F003A1928 /* Main */,
+				D69952071E6D58FA003A1928 /* Others */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D69951F11E6D5716003A1928 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D69952161E6E6575003A1928 /* Controller */,
+				D69952191E6E6575003A1928 /* Tools */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		D69951F21E6D5716003A1928 /* Classify */ = {
+			isa = PBXGroup;
+			children = (
+				D69951F31E6D5716003A1928 /* Controller */,
+				D69951F41E6D5716003A1928 /* Model */,
+				D69951F51E6D5716003A1928 /* View */,
+			);
+			path = Classify;
+			sourceTree = "<group>";
+		};
+		D69951F31E6D5716003A1928 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D69952271E6E8B7C003A1928 /* XJCategoryViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D69951F41E6D5716003A1928 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D69951F51E6D5716003A1928 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D69951F61E6D5716003A1928 /* DanTang */ = {
+			isa = PBXGroup;
+			children = (
+				D69951F71E6D5716003A1928 /* Controller */,
+				D69951F81E6D5716003A1928 /* Model */,
+				D69951F91E6D5716003A1928 /* View */,
+			);
+			path = DanTang;
+			sourceTree = "<group>";
+		};
+		D69951F71E6D5716003A1928 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D69952231E6E6C20003A1928 /* XJDanTangViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D69951F81E6D5716003A1928 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D69951F91E6D5716003A1928 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D69951FA1E6D5716003A1928 /* Login&Register */ = {
+			isa = PBXGroup;
+			children = (
+				D69951FB1E6D5716003A1928 /* Controller */,
+				D69951FC1E6D5716003A1928 /* Model */,
+				D69951FD1E6D5716003A1928 /* View */,
+			);
+			path = "Login&Register";
+			sourceTree = "<group>";
+		};
+		D69951FB1E6D5716003A1928 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D69951FC1E6D5716003A1928 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D69951FD1E6D5716003A1928 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D69951FE1E6D5716003A1928 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				D69951FF1E6D5716003A1928 /* Controller */,
+				D69952001E6D5716003A1928 /* Model */,
+				D69952011E6D5716003A1928 /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		D69951FF1E6D5716003A1928 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D69952291E6E8B96003A1928 /* XJMeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D69952001E6D5716003A1928 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D69952011E6D5716003A1928 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D69952021E6D5716003A1928 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				D69952031E6D5716003A1928 /* Controller */,
+				D69952041E6D5716003A1928 /* Model */,
+				D69952051E6D5716003A1928 /* View */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		D69952031E6D5716003A1928 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D69952251E6E8B43003A1928 /* XJProductViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D69952041E6D5716003A1928 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D69952051E6D5716003A1928 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D69952061E6D588F003A1928 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D69951E61E6D55C5003A1928 /* AppDelegate.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		D69952071E6D58FA003A1928 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		D69952161E6E6575003A1928 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D69952211E6E6BDE003A1928 /* XJBaseViewController.swift */,
+				D69952171E6E6575003A1928 /* XJNavigationController.swift */,
+				D69952181E6E6575003A1928 /* XJTabBarController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D69952191E6E6575003A1928 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				D699521F1E6E6648003A1928 /* XJConst.swift */,
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -117,6 +341,7 @@
 		D69951C81E6D501D003A1928 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = XJ;
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = QinXJ;
@@ -150,9 +375,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D69951DE1E6D501D003A1928 /* LaunchScreen.storyboard in Resources */,
+				D69952091E6D5A79003A1928 /* Info.plist in Resources */,
 				D69951DB1E6D501D003A1928 /* Assets.xcassets in Resources */,
-				D69951D91E6D501D003A1928 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,31 +435,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D69951D61E6D501D003A1928 /* ViewController.swift in Sources */,
-				D69951D41E6D501D003A1928 /* AppDelegate.swift in Sources */,
+				D69952281E6E8B7C003A1928 /* XJCategoryViewController.swift in Sources */,
+				D69952241E6E6C20003A1928 /* XJDanTangViewController.swift in Sources */,
+				D699522A1E6E8B96003A1928 /* XJMeViewController.swift in Sources */,
+				D699521B1E6E6575003A1928 /* XJTabBarController.swift in Sources */,
+				D69952201E6E6648003A1928 /* XJConst.swift in Sources */,
+				D69952221E6E6BDE003A1928 /* XJBaseViewController.swift in Sources */,
+				D69951E91E6D55C5003A1928 /* AppDelegate.swift in Sources */,
+				D69952261E6E8B43003A1928 /* XJProductViewController.swift in Sources */,
+				D699521A1E6E6575003A1928 /* XJNavigationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		D69951D71E6D501D003A1928 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D69951D81E6D501D003A1928 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D69951DC1E6D501D003A1928 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D69951DD1E6D501D003A1928 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D69951E01E6D501D003A1928 /* Debug */ = {
@@ -278,7 +490,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -321,7 +533,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -336,7 +548,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DanTang/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = QinXJ.DanTang;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DanTang;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -349,7 +561,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DanTang/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = QinXJ.DanTang;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DanTang;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -374,6 +586,7 @@
 				D69951E41E6D501D003A1928 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

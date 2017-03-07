@@ -1,18 +1,19 @@
 //
-//  ViewController.swift
+//  XJDanTangViewController.swift
 //  DanTang
 //
-//  Created by qxj on 2017/3/6.
+//  Created by qxj on 2017/3/7.
 //  Copyright © 2017年 QinXJ. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class XJDanTangViewController: XJBaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +21,4 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
 }
-
